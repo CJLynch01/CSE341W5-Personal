@@ -1,0 +1,36 @@
+[
+    {
+      "recipe1": {
+        "recipeName": "Chicken Pot Pie",
+        "recipeType": "Crockpot",
+        "recipeServingSize": "6",
+        "recipeMeatType": "Chicken",
+        "recipeIngredients": "1.5 pounds boneless chicken breasts, 10.5 ounce can cream of chicken soup, 1 cup milk, 1/2 onion chopped, 16 ounce bag frozen mixed vegetables, 1/2 cup chopped celery, 1 teaspoon garlic powder, 1/2 teaspoon salt, 1/4 teaspoon pepper, 16 ounce can grands biscuits",
+        "recipeCookTime": "6-8 hours on low, 3-4 hours on high",
+        "recipeCookInstructions": "1. Spray crock pot with non-stick spray. Add chicken breasts to the crock pot. 2. In a mixing bowl combine cream of chicken soup and milk, whisk to combine. 3. Add in onion, mixed vegetables, celery, garlic powder, salt and pepper. Stir to combine and then pour over chicken breasts in the crock pot. 4. Cover the crock pot and cook on low for 6-8 hours or high 3-4 hours. 5. Shred chicken in the crock pot and stir to combine. 6. Bake biscuits according to the package directions. 7.Serve biscuits on top of a bowl of pot pie and enjoy!"
+      }
+    },
+    {
+      "contact2": {
+        "recipeName": "Ritz Cracker Chicken",
+        "recipeType": "Oven",
+        "recipeServingSize": "4",
+        "recipeMeatType": "Chicken",
+        "recipeIngredients": "8 skinless chicken breasts, 1/2 cup unsalted butter melted, 2 sleeves of ritz crackers crushed",
+        "recipeCookTime": "40 minutes",
+        "recipeCookInstructions": "1. Preheat oven to 350 2. Melt butter in a microwavable dish and set aside. 3. Crush Ritz crackers {I crush mine in a zip baggie} and place crushed crackers on a dinner plate. 4. Dip the chicken breasts in butter, then coat with Ritz Crackers, and place on a lined baking sheet. 5. Bake at 350 degrees for 40 minutes."
+      }
+    },
+    {
+      "contact3": {
+        "recipeName": "Beef and Broccoli Ramen",
+        "recipeType": "Skillet",
+        "recipeServingSize": "4",
+        "recipeMeatType": "Beef",
+        "recipeIngredients": "3/4 pound flank steak, 3 tablespoons corn startch, 2(3-ounce) ramen noodle packets, 2 tablespoons vegetable oil, 1-1/2 teaspoons minced garlic, 2 tablespoons reduced sodium soy sauce, 2 tablespoons toasted sesame oil, 1/3 cup light brown sugar, 1 teaspoon ginger paste, 1 cup beef broth, 1/4 cup oyster sauce, 4 cups chopped broccoli",
+        "recipeCookTime": "30 minutes",
+        "recipeCookInstructions": "1. Chop broccoli into even, bite-sized pieces. Slice the flank steak against the grain into 1/4-inch-thick strips, then cut into 2-inch pieces. Toss the steak pieces with cornstarch in a bowl. 2. Heat 1 tablespoon of vegetable oil in a large pan or wok over high heat. Once the oil is hot, add half of the beef, spacing it out in a single layer. Cook without stirring for about 1 minute, until well seared. Stir and cook until lightly browned but still slightly pink, about 40 seconds. Transfer to a plate. Repeat with the remaining beef and oil, then transfer to the plate. 3. In the same pan, add the beef broth, brown sugar, soy sauce, sesame oil, oyster sauce, garlic, and ginger. Stir and scrape up any browned bits from the bottom of the pan. Cook over high heat, uncovered, until the sauce boils and thickens slightly, this takes about 5–8 minutes. Make sure there's enough sauce to coat the noodles and broccoli. 4. Once the sauce is reduced, evenly place the broccoli on top without stirring it in. Cover the skillet with a lid, reduce the heat to low, and steam the broccoli about 2–4 minutes. 5. Discard seasoning packets that come with the ramen noodles. While the broccoli steams, bring a large pot of water to a boil and cook the ramen noodles for exactly 2 minutes. Drain and rinse with cold water for 10 seconds. Shake off any excess water and set aside. 6.  Remove the lid from the pan, add the drained ramen and cooked beef to the sauce and broccoli. Gently toss everything to coat well. Garnish with sesame seeds, green onions, and red pepper flakes if desired."
+      
+      }
+    }
+  ]
