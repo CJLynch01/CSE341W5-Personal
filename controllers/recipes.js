@@ -21,12 +21,12 @@ const getSingle = async (req, res, next) => {
 const createNewRecipe = async (req, res) => {
   const recipe = {
     recipeName: req.body.recipeName,
-    recipeType: req.body.recipeType,
-    recipeServingSize: req.body.recipeServingSize,
-    recipeMeatType: req.body.recipeMeatType,
-    recipeIngredients: req.body.recipeIngredients,
+    recipeDescription: req.body.recipeDescription,
+    recipePrepTime: req.body.recipePrepTime,
     recipeCookTime: req.body.recipeCookTime,
-    recipeCookInstructions: req.body.recipeCookInstructions
+    recipeServingSize: req.body.recipeServingSize,
+    recipeIngredients: req.body.recipeIngredients,
+    recipeInstructions: req.body.recipeInstructions
   };
 
   const response = await mongodb.getDb().db('recipes').collection('recipes').insertOne(recipe);
@@ -41,12 +41,12 @@ const editRecipe = async (req, res) => {
   const userId = new ObjectId(req.params.id);
   const recipe = {
     recipeName: req.body.recipeName,
-    recipeType: req.body.recipeType,
-    recipeServingSize: req.body.recipeServingSize,
-    recipeMeatType: req.body.recipeMeatType,
-    recipeIngredients: req.body.recipeIngredients,
+    recipeDescription: req.body.recipeDescription,
+    recipePrepTime: req.body.recipePrepTime,
     recipeCookTime: req.body.recipeCookTime,
-    recipeCookInstructions: req.body.recipeCookInstructions
+    recipeServingSize: req.body.recipeServingSize,
+    recipeIngredients: req.body.recipeIngredients,
+    recipeInstructions: req.body.recipeInstructions
   };
   const response = await mongodb.getDb().db('recipes').collection('recipes').replaceOne({ _id: userId }, recipe);
 

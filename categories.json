@@ -1,0 +1,10 @@
+[
+    {
+      "name": "Desserts",
+      "description": "Sweet treats to finish a meal."
+    },
+    {
+      "name": "Main Course",
+      "description": "The primary dish in a meal, usually savory and filling."
+    }
+]
