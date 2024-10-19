@@ -1,0 +1,11 @@
+{
+  "name": "cse341w5-personal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Lynch",
+  "license": "ISC",
+  "description": ""
+}
