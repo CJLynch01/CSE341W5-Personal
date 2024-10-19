@@ -1,16 +1,16 @@
 const express = require('express');
 const router = express.Router();
 
-const contactsController = require('../controllers/contacts');
+const recipesController = require('../controllers/recipes');
 
-router.get('/', contactsController.getAll);
+router.get('/', recipesController.getAll);
 
-router.get('/:id', contactsController.getSingle);
+router.get('/:id', recipesController.getSingle);
 
-router.post('/', contactsController.createNewRecipe);
+router.post('/', recipesController.createNewRecipe);
 
-router.put('/:id', contactsController.editRecipe);
+router.put('/:id', recipesController.editRecipe);
 
-router.delete('/:id', contactsController.deleteRecipe);
+router.delete('/:id', recipesController.deleteRecipe);
 
 module.exports = router;
