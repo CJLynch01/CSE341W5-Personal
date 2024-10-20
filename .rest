@@ -145,3 +145,27 @@ GET https://cse341w5-personal.onrender.com/categories/67144c94e285cfc7cc5fb8eb
 ###
 GET https://cse341w5-personal.onrender.com/categories/67144c94e285cfc7cc5fb8ec
 ###
+
+//Create Category
+POST https://cse341w5-personal.onrender.com/categories HTTP/1.1 
+Content-Type: application/json
+
+{
+    "categoryName": "Salads",
+    "categoryDescription": "A variety of fresh and healthy salads."
+}
+
+//Edit Category
+###
+PUT https://cse341w5-personal.onrender.com/categories/671453ccd14e80c6c8e4ba98 HTTP/1.1 
+Content-Type: application/json
+
+{
+    "categoryName": "Salad",
+    "categoryDescription": "A variety of fresh and healthy salads."
+}
+
+//Delete Category
+###
+DELETE https://cse341w5-personal.onrender.com/categories/671453ccd14e80c6c8e4ba98 HTTP/1.1
+###
