@@ -141,7 +141,7 @@ GET https://cse341w5-personal.onrender.com/categories
 
 ////Get Category by ID
 ###
-GET https://cse341w5-personal.onrender.com/recipes/67144132e285cfc7cc5fb8df
+GET https://cse341w5-personal.onrender.com/categories/67144c94e285cfc7cc5fb8eb
 ###
-GET https://cse341w5-personal.onrender.com/recipes/67144132e285cfc7cc5fb8e0
+GET https://cse341w5-personal.onrender.com/categories/67144c94e285cfc7cc5fb8ec
 ###
