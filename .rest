@@ -26,14 +26,14 @@ Content-Type: application/json
 
 //Edit contact
 ###
-PUT http://localhost:8080/recipes/671456a05d9904c0c24011c2 HTTP/1.1 
+PUT http://localhost:8080/recipes/671462278dc66dced93898f2 HTTP/1.1 
 Content-Type: application/json
 
 {
     "recipeName": "Lasagna",
     "recipeDescription": "A hearty and delicious Italian lasagna made with layers of pasta, cheese, and meat sauce.",
     "recipePrepTime": "30",
-    "recipeCookTime": "45",
+    "recipeCookTime": "30",
     "recipeServingSize": "6",
     "recipeIngredients": ["Lasagna Noodles", "Ground Beef", "Tomato Sauce", "Ricotta Cheese", "Mozzarella Cheese", "Parmesan Cheese", "Onion", "Garlic", "Olive Oil", "Basil", "Oregano", "Salt", "Pepper"],
     "recipeInstructions": "1. Preheat oven to 375°F. 2. Cook lasagna noodles according to package instructions. 3. In a pan, sauté onion and garlic in olive oil, add ground beef and cook until browned. 4. Add tomato sauce, basil, oregano, salt, and pepper, and let simmer. 5. In a baking dish, layer noodles, ricotta cheese, meat sauce, and mozzarella cheese. Repeat layers and top with Parmesan cheese. 6. Bake for 45 minutes until bubbly and golden on top."
@@ -41,7 +41,7 @@ Content-Type: application/json
 
 //Delete contact
 ###
-DELETE http://localhost:8080/recipes/671456a05d9904c0c24011c2 HTTP/1.1
+DELETE http://localhost:8080/recipes/671462278dc66dced93898f2 HTTP/1.1
 ###
 
 
@@ -68,7 +68,7 @@ Content-Type: application/json
 
 //Edit Category
 ###
-PUT http://localhost:8080/categories/671457005d9904c0c24011c3 HTTP/1.1 
+PUT http://localhost:8080/categories/671462778dc66dced93898f3 HTTP/1.1 
 Content-Type: application/json
 
 {
@@ -78,7 +78,7 @@ Content-Type: application/json
 
 //Delete Category
 ###
-DELETE http://localhost:8080/categories/671457005d9904c0c24011c3 HTTP/1.1
+DELETE http://localhost:8080/categories/671462778dc66dced93898f3 HTTP/1.1
 ###
 
 
@@ -114,7 +114,7 @@ Content-Type: application/json
 
 //Edit Recipe
 ###
-PUT https://cse341w5-personal.onrender.com/recipes/67145710234f20b5b5c6d284 HTTP/1.1 
+PUT https://cse341w5-personal.onrender.com/recipes/67146275a3d22a595b9273fc HTTP/1.1 
 Content-Type: application/json
 
 {
@@ -129,7 +129,7 @@ Content-Type: application/json
 
 //Delete Recipe
 ###
-DELETE https://cse341w5-personal.onrender.com/recipes/67145710234f20b5b5c6d284  HTTP/1.1
+DELETE https://cse341w5-personal.onrender.com/recipes/67146275a3d22a595b9273fc HTTP/1.1
 ###
 
 
@@ -147,7 +147,7 @@ GET https://cse341w5-personal.onrender.com/categories/67144c94e285cfc7cc5fb8ec
 ###
 
 //Create Category
-POST https://cse341w5-personal.onrender.comcategories/ HTTP/1.1 
+POST https://cse341w5-personal.onrender.com/categories/ HTTP/1.1 
 Content-Type: application/json
 
 {
@@ -157,7 +157,7 @@ Content-Type: application/json
 
 //Edit Category
 ###
-PUT https://cse341w5-personal.onrender.com/categories/6714575d234f20b5b5c6d285 HTTP/1.1 
+PUT https://cse341w5-personal.onrender.com/categories/67146313a3d22a595b9273fd HTTP/1.1 
 Content-Type: application/json
 
 {
@@ -167,5 +167,5 @@ Content-Type: application/json
 
 //Delete Category
 ###
-DELETE https://cse341w5-personal.onrender.com/categories/6714575d234f20b5b5c6d285 HTTP/1.1
+DELETE https://cse341w5-personal.onrender.com/categories/67146313a3d22a595b9273fd HTTP/1.1
 ###
