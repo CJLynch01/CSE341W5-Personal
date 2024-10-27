@@ -3,7 +3,7 @@ const validator = require('../helpers/validate');
 const saveCategory = (req, res, next) => {
     const validationRule = {
         categoryName: 'required|string',
-        categoryDescription: 'required|string'  // Changed 'name' to 'string'
+        categoryDescription: 'required|string'
     };
     validator(req.body, validationRule, {}, (err, status) => {
         if (!status) {
@@ -12,8 +12,9 @@ const saveCategory = (req, res, next) => {
                 message: 'Validation failed',
                 data: err
             });
-        }
+        } else {
         next();
+        }
     });
 };
 
@@ -34,8 +35,9 @@ const saveRecipe = (req, res, next) => {
                 message: 'Validation failed',
                 data: err
             });
-        }
+        } else {
         next();
+        }
     });
 };
 
