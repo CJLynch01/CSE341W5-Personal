@@ -25,7 +25,8 @@ const saveRecipe = (req, res, next) => {
         recipePrepTime: 'required|string',
         recipeCookTime: 'required|string',
         recipeServingSize: 'required|string',
-        recipeIngredients: 'required|string',
+        recipeIngredients: 'required|array',
+        'recipeIngredients.*': 'string',
         recipeInstructions: 'required|string'
     };
     validator(req.body, validationRule, {}, (err, status) => {
