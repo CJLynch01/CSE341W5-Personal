@@ -114,7 +114,7 @@ Content-Type: application/json
 
 //Edit Recipe
 ###
-PUT https://cse341w5-personal.onrender.com/recipes/67146275a3d22a595b9273fc HTTP/1.1 
+PUT https://cse341w5-personal.onrender.com/recipes/671da120f1b695981b6179cc HTTP/1.1 
 Content-Type: application/json
 
 {
